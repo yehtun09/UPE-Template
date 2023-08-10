@@ -1,0 +1,545 @@
+/* Home Page */
+.navbar-nav .nav-item .nav-link {
+  color: black;
+  font-weight: bold;
+}
+.navbar-nav .nav-item .nav-link.active,
+.navbar-nav .nav-item .nav-link:hover {
+  color: #0000ff !important;
+}
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 1.25rem;
+  left: 15%;
+  padding-top: 1.25rem;
+  padding-bottom: 22.25rem;
+  color: #fff;
+  text-align: center;
+}
+.btn-outline-secondary {
+  --bs-btn-color: #6c757d;
+  --bs-btn-border-color: #ffffff;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #0000ff;
+  --bs-btn-hover-border-color: #0000ff;
+  --bs-btn-focus-shadow-rgb: 108, 117, 125;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #6c757d;
+  --bs-btn-active-border-color: #6c757d;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #6c757d;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #6c757d;
+  --bs-gradient: none;
+}
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-start;
+  padding: 0;
+  margin-left: 15%;
+  margin-bottom: 18rem;
+}
+.carousel-indicators li {
+  width: 20px !important;
+  height: 20px !important;
+  border: none !important;
+  border-radius: 4px !important;
+}
+
+
+/* Service */
+.service-bg {
+  background-image: url(./img/service-bg.png);
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  padding: 70px 0;
+}
+ .bgwhite {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 810px;
+  height: 100%;
+  z-index: 2;
+  background-color: #fff;
+}
+
+.service-txt {
+  line-height: 30px;
+  display: flex;
+  justify-content: flex-start;
+  text-justify: auto;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 50%;
+  margin: 112px;
+}
+.service-card {
+  display: flex;
+  position: absolute;
+  margin-top: 61px;
+  left: 500px;
+}
+.service-card-body{
+ border-radius: 10px;
+ box-shadow: 20px;
+}
+.btn-cs-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #0000FF;
+  --bs-btn-border-color: #0d6efd;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #2C0A02;
+  --bs-btn-hover-border-color: #2C0A02;
+  --bs-btn-focus-shadow-rgb: 49,132,253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #0a58ca;
+  --bs-btn-active-border-color: #0a53be;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #0d6efd;
+  --bs-btn-disabled-border-color: #0d6efd;
+}
+.card-img-overlay {
+  background-color: rgba(#000, 0.4);
+  margin-top: 76px;
+  width: 204px;
+  margin-left: 20px;
+}
+.card-cz{
+  box-shadow: 0 0 2px lightcyan;
+  border: 1px ;
+  height: 350px;
+  border-top:5px solid #0000FF ;
+}
+.mr-cz {
+  /* float: left; */
+  margin-left: -41px;
+  /* width: 60%; */
+}
+.activity-images .image-box {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.activity-images .image-box img {
+    transition: transform 0.3s;
+}
+.activity-images .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(18, 76, 105, 0.397);
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all .4s ease;
+}
+.activity-images .image-box:hover .overlay {
+    opacity: 1;
+}
+.activity-images .image-box:hover img {
+    transform: scale(1.2);
+}
+.activity-images .text {
+    color: white;
+    position: absolute;
+    font-size: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+/* ` */
+/* Start Reason */
+.mr-cz {
+  /* float:left; */
+  margin-left: 50px;
+}
+
+.mr-cz h4{
+  width: 255px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+}
+
+.card-pj{
+  background-color: white;
+  /* width: 100%; */
+  border-radius: 10px;
+  
+}
+
+.card-workers{
+  background-color: #0000FF;
+  color:white;
+  border-radius: 10px;
+
+  
+}
+.title-color{
+  color: #0000FF;
+  text-align: center;
+}
+.footer-copyright{
+  background-color: #0000FF;
+  margin-top: 8px;
+  color: white;
+  text-align: center;
+}
+
+/* update icon bootstrap and expense datatable */
+
+.service-img{
+  width: 100%;
+}
+
+.service-title {
+  margin-top: -280px;
+  margin-bottom: 389px;
+}
+
+.service-content{
+  margin-top: 150px;
+}
+
+.service-image{
+  padding-left: 0 !important;
+}
+
+.service-right{
+  padding-right: 0 !important;
+}
+.card-bd-1 {
+  width: 479px;
+  margin-left: 79px;
+}
+.card-bd-2 {
+  width: 561px;
+  margin-right: 196px;
+}
+
+/* About Start */
+.about-title {
+
+    margin-bottom: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.about-card{
+  margin-left: 90px;
+  margin-top: 50px;
+}
+.ab-card-1 {
+  /* margin-bottom: 53px; */
+  margin-top: 73px;
+  width: 70%;
+}
+.ab-card-2{
+  margin-top: 73px;
+  width: 70%;
+}
+.main-about{
+  background-color: #F3F3F3;
+  margin-bottom: 30px;
+}
+
+/* Code based on this sample http://thecodeplayer.com/walkthrough/css3-family-tree */
+
+/*Now the CSS*/
+.tree * {margin: 0; padding: 0;}
+
+.tree ul {
+	padding-top: 20px; position: relative;
+	
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+}
+
+.tree li {
+	float: left; text-align: center;
+	list-style-type: none;
+	position: relative;
+	padding: 20px 5px 0 5px;
+	
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+}
+
+/*We will use ::before and ::after to draw the connectors*/
+
+.tree li::before, .tree li::after{
+	content: '';
+	position: absolute; top: 0; right: 50%;
+	border-top: 4px solid #BABABA;
+	width: 50%;
+  height: 61px;
+}
+.tree li::after{
+	right: auto; left: 50%;
+	border-left: 5px solid #BABABA;
+}
+
+/*We need to remove left-right connectors from elements without 
+any siblings*/
+.tree li:only-child::after, .tree li:only-child::before {
+	display: none;
+}
+
+/*Remove space from the top of single children*/
+.tree li:only-child{ padding-top: 0;}
+
+/*Remove left connector from first child and 
+right connector from last child*/
+.tree li:first-child::before, .tree li:last-child::after{
+	border: 0 none;
+}
+
+/*Adding back the vertical connector to the last nodes*/
+.tree li:last-child::before{
+	border-right: 4px solid #BABABA;
+	border-radius: 0 5px 0 0;
+	-webkit-border-radius: 0 5px 0 0;
+	-moz-border-radius: 0 5px 0 0;
+}
+.tree li:first-child::after{
+	border-radius: 5px 0 0 0;
+	-webkit-border-radius: 5px 0 0 0;
+	-moz-border-radius: 5px 0 0 0;
+}
+
+/*Time to add downward connectors from parents*/
+.tree ul ul::before {
+  content: '';
+  position: absolute;
+  top: -48px;
+  left: 50%;
+  border-left: 4px solid #BABABA;
+  width: 0;
+  height: 72px;
+}
+.tree li .card{
+  box-shadow: 20px;
+  width: 300px;
+	display: inline-block;
+	transition: all 0.5s;
+  margin-top: 108px;
+  height: 200px;
+  border: none;
+}
+.tree li .card img {
+  margin-bottom: 23px;
+  margin-top: -86px;
+}
+.tree li .card h5{
+  color: #0000FF;
+  width: 280px;
+  margin-top: 4px;
+}
+.card-text{
+  width: 100%;
+}
+
+/* Contact Start */
+.main-contact{
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+
+.input-form{
+  margin-top: 20px;
+  margin-left: 36px;
+}
+.contact-bd{
+  margin-left: 15px;
+}
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+.text-area {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+.hr-tag {
+  margin-top: 68px;
+}
+
+/* Our Project start */
+.cz-nav.nav-link.active {
+  border-color: var(--bs-nav-tabs-link-active-border-color);
+  background-color: #9747FF;
+  color: white;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active
+{
+  border-color: var(--bs-nav-tabs-link-active-border-color);
+  background-color: #9747FF;
+  color: white;
+  border-radius: 10px 10px 0 0 ;
+}
+.nav-tabs .nav-link {
+  margin-bottom: calc(-1 * var(--bs-nav-tabs-border-width));
+  /* border: var(--bs-nav-tabs-border-width) solid transparent; */
+  border-top-left-radius: var(--bs-nav-tabs-border-radius);
+  border-top-right-radius: var(--bs-nav-tabs-border-radius);
+  background-color: #EAEAF3;
+  border-radius: 10px 10px 0 0 ;
+  color: black;
+
+}
+.nav-tabs {
+  justify-content: center;
+  border-bottom: 3px solid #9747FF;
+}
+.overlay-img-pj{
+    width: 98%;
+    height: 90%;
+    position: relative;
+}
+.overlay-card h5{
+  position: absolute;
+  margin-top: -98px;
+  width: 24%;
+  color: white;
+  margin-left: 20px;
+}
+.main-ourproject{
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.nav-tabs-btn {
+  width: 242px;
+}
+.tab-content {
+  margin-top: 40px;
+}
+
+/* Footer img */
+.footer-img {
+  width: 70% !important;
+}
+
+
+
+
+/* Responsive */
+@media only screen and (max-width: 991px) {
+  .carousel-caption {
+    left: 15%;
+    width: 50% !important;
+    bottom: 3.25rem;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.carousel-indicators {
+  margin-bottom: 1rem;
+}
+.bgwhite{
+  display: none;
+}
+.card-bd-1 {
+  width: 452px;
+  margin-left: 1px;
+}
+.card-bd-2 {
+  width: 447px;
+  margin-right: -1px;
+  /* font-size: 10px; */
+}
+.text-card{
+  color: white;
+}
+/* .cz-dflex{
+  display: flex !important;
+  flex-direction: column;
+} */
+.about-card {
+  margin-left: 31px;
+  margin-top: -58px;
+  width: 100%;
+}
+.ab-card-2 {
+  margin-top: 73px;
+  width: 50%;
+}
+.ab-card-1 {
+  margin-top: 73px;
+  width: 50%;
+}
+}
+
+@media screen and (max-width: 767px) {
+  
+.carousel-indicators li {
+    width: 11px !important;
+    height: 11px !important;
+    border: none !important;
+    border-radius: 2px !important;
+}
+.mr-cz {
+  margin: 0 12px;
+}
+
+.footer-img {
+  width: 80% !important;
+  margin-left: 38px;
+}
+.dflex-card-bd-2{
+  display: flex!important;
+  flex-direction: column !important;
+}
+.card-bd-2 {
+  width: 373px;
+  margin-right: -1px;
+}
+.text-card{
+  color: white;
+}
+.cz-dflex{
+  display: flex !important;
+  flex-direction: column;
+}
+}
